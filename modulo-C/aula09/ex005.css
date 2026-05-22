@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(104, 194, 164);
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+strong{
+    color: black;
+}
