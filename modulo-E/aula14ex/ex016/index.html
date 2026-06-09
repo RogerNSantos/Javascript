@@ -5,24 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Super Contador</title>
+    <title>Tabuada</title>
 </head>
 
 <body>
     <header>
-        <h1>Vamos contar!</h1>
+        <h1>Tabuada</h1>
     </header>
 
     <section>
-        <div id="dados">
-            <p>Início: <input type="number" id="txtini"></p>
-            <p>Fim: <input type="number" id="txtfim"></p>
-            <p>Passo: <input type="number" id="txtpasso"></p>
-            <p><input type="button" value="Contar" onclick="contar()"></p>
+        <div>
+            <p>Número: <input type="number" name="num" id="txtn">         
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>  
         </div>
 
-        <div id="res">
-            Preparando a contagem...
+        <div>
+            <select name="tabuada" id="seltab"></select>
         </div>
     </section>
 
